@@ -8,6 +8,8 @@ Player Management: Add, display, update, and delete player information.
 Statistics Generation: Generate statistics based on player data.
 Report Printing: Print player details into a report file.
 Height-based Sorting: List players in order of height.
+
+
 Usage
 Login: Enter your username and password when prompted.
 Main Menu:
@@ -20,16 +22,24 @@ Enter 6 to generate statistics based on player weights.
 Enter 7 to print player details into a report file.
 Enter 8 to list players in order of height.
 Enter -1 to exit the program.
+
+
 Installation
 Clone the repository.
 Compile the program using a C compiler.
 Run the compiled executable.
+
+
 Dependencies
 C Standard Library: The program utilizes standard C libraries for file handling, input/output operations, and memory allocation.
 gcc: The GNU Compiler Collection is used to compile the C code.
+
+
 File Structure
 main.c: Contains the main source code for the Rugby Player Management System.
 loginDetail.txt: Stores login details for authentication.
 Rugby.txt: Stores player data.
+
+
 Contributing
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
